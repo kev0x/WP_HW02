@@ -1,0 +1,140 @@
+body{
+    background-image: url("assignment_2_resource/background.png");
+    background-repeat: repeat;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.banBack{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    background-image: url("assignment_2_resource/bannerbackground.png");
+    background-repeat: repeat-x;
+}
+
+.cenBanner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+.header{
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.mainContent{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid gray;
+    display:flex;
+}
+
+.ratingSection{
+    width: 550px;
+    float: left;
+}
+.ratingHeader{
+    background-image: url("assignment_2_resource/rottenbackground.png");
+    background-repeat: repeat-x;
+    height: 83px;
+    font-size: 42pt;
+    font-weight: bold;
+    color: red;
+}
+
+.ratingImg{
+    float:left;
+}
+.ratingNum{
+    vertical-align: text-bottom;
+}
+.ratingNum p{
+    font-size: 8pt;
+    font-weight: normal;
+    color: white;
+    display: inline;
+}
+
+.column{
+    width: 47%;
+    background-color: #E1D697;
+    border: 2px solid gray;
+
+}
+.column p{
+    font-weight: bold;
+    font-size: 8pt;
+    padding: 8px;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+.column img{
+    float:left;
+    padding: 8px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+.row{
+    display: flex;
+    padding-top: 2%;
+    padding-right: 2%;
+    justify-content: space-around;
+}
+
+.personInfo{
+    width: 47%;
+    padding-bottom: 3em;
+    
+}
+.personInfo img{
+    float: left;
+    padding-right: 5px;
+}
+.personInfo p{
+    padding-top: 0%;
+    margin-top: auto;
+    font-style: italic;
+}
+
+.genOver{
+    width:250px;
+    float:left;
+    background-color: #A2B964;
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+}
+.genOver img{
+    padding-bottom: 10px;
+}
+.genOver dl {
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+.genOver lh{
+    font-weight: bold;
+}
+.genOver dt{
+    clear: left;
+}
+
+.botBar{
+    padding-right: 20%;
+    text-align: right;
+    background-color: #A2B964;
+}
+
+.w3{
+    float:right;
+}
+
+.links{
+    text-align: center;
+}
